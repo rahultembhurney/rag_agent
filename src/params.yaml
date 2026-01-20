@@ -1,0 +1,8 @@
+chunk_size: 1000
+overlap:  200
+path_to_source_files: "src/pdf_source"
+embedding_model: "embeddinggemma"
+
+path_to_components: component
+path_to_vectordb: vectordb
+vectordb_name:  persistentdb
