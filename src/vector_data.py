@@ -9,7 +9,7 @@ import os
 
 src_path = Path(__file__).resolve().parent
 
-from logger import logging
+from .logger import logging
 
 logging.info(f"Loading YAML file")
 try:

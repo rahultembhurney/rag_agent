@@ -1,0 +1,24 @@
+schema: '2.0'
+stages:
+  generate_vectordb:
+    cmd: python -m src.vector_data
+    deps:
+    - path: src/params.yaml
+      hash: md5
+      md5: ee56099300592a11bba7346c6d501aa8
+      size: 197
+    - path: src/pdf_source
+      hash: md5
+      md5: 150cbf9e949bc9e01059f753f695e753.dir
+      size: 5141433
+      nfiles: 4
+    - path: src/vector_data.py
+      hash: md5
+      md5: 294888b976640ef95acb18ab4b08a6d6
+      size: 3656
+    outs:
+    - path: src/component/vectordb
+      hash: md5
+      md5: fa56a78b4c1750958625f8ecc66d6f3a.dir
+      size: 27786892
+      nfiles: 6

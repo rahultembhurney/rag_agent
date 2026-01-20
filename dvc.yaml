@@ -1,0 +1,10 @@
+stages:
+  generate_vectordb:
+    cmd: python -m src.vector_data
+    deps:
+      - src/pdf_source
+      - src/vector_data.py
+      - src/params.yaml
+    outs:
+      - src/component/vectordb:
+          persist: true
