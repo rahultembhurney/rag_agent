@@ -9,9 +9,9 @@ stages:
       size: 197
     - path: src/pdf_source
       hash: md5
-      md5: 150cbf9e949bc9e01059f753f695e753.dir
-      size: 5141433
-      nfiles: 4
+      md5: 06ab112767d18dde597b6e9ac682d018.dir
+      size: 5054349
+      nfiles: 3
     - path: src/vector_data.py
       hash: md5
       md5: 294888b976640ef95acb18ab4b08a6d6
@@ -19,6 +19,6 @@ stages:
     outs:
     - path: src/component/vectordb
       hash: md5
-      md5: fa56a78b4c1750958625f8ecc66d6f3a.dir
-      size: 27786892
+      md5: f7407e18494a0f64bb7d7b0bd9e422ce.dir
+      size: 37662040
       nfiles: 6
